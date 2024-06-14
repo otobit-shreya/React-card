@@ -6,9 +6,6 @@ import StartGame from "./components/StartGame";
 
 function App() {
   return (
-    <>
-      {" "}
-      <div className="image"></div>
       <BrowserRouter>
         <Routes>
           <Route path="" element={<CreateRoom />} />
@@ -16,7 +13,6 @@ function App() {
           <Route path="/start" element={<StartGame />} />
         </Routes>
       </BrowserRouter>
-    </>
   );
 }
 
