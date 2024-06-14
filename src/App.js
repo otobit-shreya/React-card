@@ -3,6 +3,7 @@ import "./App.css";
 import CreateRoom from "./components/CreateRoom";
 import JoinRoom from "./components/JoinRoom";
 import StartGame from "./components/StartGame";
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 function App() {
   return (

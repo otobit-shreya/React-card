@@ -1,0 +1,54 @@
+.image {
+    background-image: url("../../public/images/main-bg-2.jpg");
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .join-room {
+    background-image: url("../../public/images/jr1.jpg");
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .card {
+    width: 30rem;
+    background-color: black !important;
+    color: white;
+    min-height: 20rem;
+    border-radius: 10px !important;
+    margin-right: 10rem;
+    background-color: rgba(
+      255,
+      255,
+      255,
+      0.9
+    );
+    opacity: 0.9;
+  }
+  
+  .font {
+    font-size: 30px !important;
+    font-family: "math";
+    color: white !important;
+    font-weight: 500;
+  }
+  
+  .submit-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00ab66 !important;
+    color: white;
+    font-weight: 600 !important;
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    text-transform: uppercase;
+  }
+  
